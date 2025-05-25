@@ -12,10 +12,7 @@ import jakarta.persistence.ManyToOne;
 
 @Embeddable
 public class OrderItemPK implements Serializable{
-<<<<<<< HEAD
-	
-=======
->>>>>>> ad8e4f4bf7431a0655ee2589a6faa29d3a11b1c8
+
 	private static final long serialVersionUID = 1L;
 	
 	@ManyToOne
@@ -25,11 +22,7 @@ public class OrderItemPK implements Serializable{
 	@ManyToOne
 	@JoinColumn(name = "product_id")
 	private Product product;
-<<<<<<< HEAD
-	
-	
-=======
->>>>>>> ad8e4f4bf7431a0655ee2589a6faa29d3a11b1c8
+
 	public Order getOrder() {
 		return order;
 	}
@@ -42,10 +35,7 @@ public class OrderItemPK implements Serializable{
 	public void setProduct(Product product) {
 		this.product = product;
 	}
-<<<<<<< HEAD
-	
-=======
->>>>>>> ad8e4f4bf7431a0655ee2589a6faa29d3a11b1c8
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(order, product);
@@ -63,8 +53,4 @@ public class OrderItemPK implements Serializable{
 	}
 	
 	
-<<<<<<< HEAD
-	
-=======
->>>>>>> ad8e4f4bf7431a0655ee2589a6faa29d3a11b1c8
 }
