@@ -13,7 +13,7 @@ import com.estudos.curso.entities.User;
 import com.estudos.curso.services.UserService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
 
 	@Autowired
